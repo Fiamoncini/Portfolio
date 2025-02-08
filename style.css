@@ -1,0 +1,292 @@
+/* General Styles */
+body {
+    background: linear-gradient(135deg, #262485, #0e0e0e); /* Soft gradient background */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #e0e0e0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 3200px;
+    overflow-x: hidden; /* Impede o scroll lateral */
+}
+/* Image Styling */
+#foto {
+    border: 3px solid #a1a1a1;
+    border-radius: 10px;
+    position: absolute; /* Troquei de fixed para absolute */
+    right: 5%;
+    top: 10%; /* Ajuste para garantir que fique visível ao rolar */
+    transform: translateY(0);
+    width: 420px;
+    height: 580px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+#foto:hover {
+    transform: scale(1.05);
+}
+#footer{
+    translate: 0px 1000px;
+}
+/* Typing Effect */
+.typing-effect {
+    text-align: left;
+    font-family: 'Courier New', monospace;
+    font-size: 35px;
+    font-weight: bold;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 550px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #00ffcc;
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.5), 0 0 20px rgba(0, 255, 204, 0.3);
+}
+
+p.sub-texto {
+    text-align: left;
+    width: 700px;
+    color: #00ffcc;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    position: absolute;
+    left: 10%;
+    top: 38%;
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.5), 0 0 20px rgba(0, 255, 204, 0.3);
+}
+#projetos{
+    font-weight: bold;
+    font-size: 32px;
+    translate: 0px 920px;
+}
+#Cotacao{
+    font-weight: bold;
+    font-size: 40px;
+    translate: 0px 900px;
+}
+#habilidades {
+    font-weight: bold;
+    color: #00ffcc;
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.5), 0 0 20px rgba(0, 255, 204, 0.3);
+    font-family: 'Courier New', monospace;
+    font-size: 35px;
+    translate: 10px 840px;
+}
+div.ferramenta{
+    line-height: 60px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    margin-right: 10px;;
+    display: inline-block;
+    width: 140px;
+    height: 95px;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg, #0011ff, #1e90ff, #6e6e6e);
+    translate: 10px 750px;
+    color: #00ffcc;
+}
+div.ferramenta:hover{
+    transform: scale(1.05);
+}
+#divcotacao{
+    translate: 0px -10px;
+    padding: 1px;
+    box-shadow: 10px 5px 30px rgba(4, 0, 255, 0.5);
+    font-family: 'Courier New', monospace;
+    border-radius: 10px;
+    background-color: #262485;
+    height: 270px;
+}
+#CotacaoDolar{
+    translate: 375px 40px;
+}
+#botmusica{
+    translate: 380px 30px;
+}
+#squidgame{
+    translate: 380px 30px;
+}
+#projetosqueja{
+    translate: 0px -20px;
+}
+#divsquidgame{
+    padding: 1px;
+    font-weight: bold;
+    box-shadow: 10px 5px 30px rgba(4, 0, 255, 0.5);
+    border-radius: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    background-color: #262485;
+    translate: 0px 120px;
+    height: 250px;
+}
+#divdiscordbot{
+    padding: 1px;
+    font-weight: bold;
+    box-shadow: 10px 5px 30px rgba(4, 0, 255, 0.5);
+    border-radius: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    background-color: #262485;
+    translate: 0px 150px;
+    height: 250px;
+}
+#vermais{
+    translate: 380px 20px;
+}
+#divemais{
+    padding: 1px;
+    font-weight: bold;
+    box-shadow: 10px 5px 30px rgba(4, 0, 255, 0.5);
+    border-radius: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    background-color: #262485;
+    translate: 0px 180px;
+    height: 250px;
+}
+#descsquid{
+    font-size: 20px;
+}
+#descdolar{
+    font-size: 20px;
+}
+#descbot{
+    translate: 130px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px; 
+    width: 900px;
+}
+#descmais{
+    font-size: 20px;
+}
+#pngferramenta2{
+    width: 50px;
+    translate: -150px 710px;
+}
+#pngferramenta{
+    width: 50px;
+    translate: 175px 760px;
+}
+
+
+
+/* Contact Text Styling */
+span {
+    font-size: 16px;
+    color: #a1a1a1;
+    display: block;
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+#sobremim {
+    font-size: 30px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.5), 0 0 20px rgba(0, 255, 204, 0.3);
+}
+#github{
+    width: 50px;
+    translate:  0px 2800px;
+    position: relative;
+}
+#divisao1{
+    border-radius: 5px;
+    translate: 0px 780px;
+    width: 1200px;
+    height: 3px;
+    background-color: #ffffff;
+    opacity: 50%;
+}
+#divisao2{
+    border-radius: 5px;
+    translate: 0px 880px;
+    width: 1200px;
+    height: 3px;
+    background-color: #ffffff;
+    opacity: 50%;
+}
+#divisao3{
+    border-radius: 5px;
+    translate: 0px 890px;
+    width: 1200px;
+    height: 3px;
+    background-color: #ffffff;
+    opacity: 50%;
+}
+#conversar{
+    left: 25%;
+}
+
+#contato{
+    font-size: 15px;
+    translate: 0px 900px;
+}
+#footer{
+    font-size: 15px;
+    translate: 0px 910px;
+}
+/* Button Styling */
+button {
+    align-items: center;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    left: 10%;
+    top: 57%; /* Ajuste para mover o botão */
+    position: absolute; /* Deixe fixo para manter visível */
+    width: 200px;
+    height: 50px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:active,
+button:hover {
+    outline: 0;
+    transform: scale(1.05);
+}
+
+button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+button:hover span {
+    background: none;
+}
+
+button:active {
+    transform: scale(0.9);
+}
