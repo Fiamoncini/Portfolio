@@ -11,9 +11,9 @@ function typeEffect() {
     if (isPaused) {
         setTimeout(() => {
             isPaused = false;
-            typeEffect(); // Reinicia a animação após o tempo de pausa
-        }, 1500); // Pausa de 1 segundo
-        return; // Interrompe a execução até o final do delay
+            typeEffect();
+        }, 1500);
+        return;
     }
 
     if (isDeleting) {
@@ -26,10 +26,10 @@ function typeEffect() {
 
     if (!isDeleting && charIndex === currentText.length) {
         isDeleting = true;
-        isPaused = true; // Ativa a pausa antes de apagar
+        isPaused = true;
     } else if (isDeleting && charIndex === 0) {
         isDeleting = false;
-        textIndex = (textIndex + 1) % textArray.length; // Passa para a próxima frase
+        textIndex = (textIndex + 1) % textArray.length;
     }
 
     setTimeout(typeEffect, typingSpeed);
