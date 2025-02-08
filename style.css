@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     background: linear-gradient(135deg, #262485, #0e0e0e); /* Soft gradient background */
     margin: 0;
@@ -9,15 +8,15 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 3200px;
-    overflow-x: hidden; /* Impede o scroll lateral */
+    overflow-x: hidden;
 }
-/* Image Styling */
+
 #foto {
     border: 3px solid #a1a1a1;
     border-radius: 10px;
-    position: absolute; /* Troquei de fixed para absolute */
+    position: absolute;
     right: 5%;
-    top: 10%; /* Ajuste para garantir que fique visível ao rolar */
+    top: 10%;
     transform: translateY(0);
     width: 420px;
     height: 580px;
@@ -31,7 +30,6 @@ body {
 #footer{
     translate: 0px 1000px;
 }
-/* Typing Effect */
 .typing-effect {
     text-align: left;
     font-family: 'Courier New', monospace;
@@ -180,7 +178,6 @@ div.ferramenta:hover{
 
 
 
-/* Contact Text Styling */
 span {
     font-size: 16px;
     color: #a1a1a1;
@@ -239,7 +236,6 @@ span {
     font-size: 15px;
     translate: 0px 910px;
 }
-/* Button Styling */
 button {
     align-items: center;
     background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
@@ -254,8 +250,8 @@ button {
     line-height: 1em;
     max-width: 100%;
     left: 10%;
-    top: 57%; /* Ajuste para mover o botão */
-    position: absolute; /* Deixe fixo para manter visível */
+    top: 57%;
+    position: absolute;
     width: 200px;
     height: 50px;
     padding: 3px;
